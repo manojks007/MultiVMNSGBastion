@@ -23,7 +23,7 @@ stages:
               backendAzureRmResourceGroupName: 'MKSRGTerraAzSub1'
               backendAzureRmStorageAccountName: 'mksterrastoreazsub1'
               backendAzureRmContainerName: 'mksterracontraz1'
-              backendAzureRmKey: 'mks5.tfstate'
+              backendAzureRmKey: 'mksgit1.tfstate'
           - task: TerraformTaskV4@4
             displayName: plan
             inputs:
